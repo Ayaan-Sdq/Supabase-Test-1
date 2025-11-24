@@ -1,0 +1,40 @@
+<!-- Login Page -->
+
+<!DOCTYPE HTML>
+
+<html>
+
+    <head>
+        <title>[Insert Brand Name]</title>
+        <link rel="icon" href="favicon.png" type="image/png">
+        <style src="format.css"></style>
+        <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+        <script src="supabaseSetup.js"></script>
+        <script src="loadAssets.js"></script>
+    </head>
+
+    <body>
+
+        <!-- Navigation Bar -->
+        <div id="navigationBarDiv"></div>
+
+        Login
+        <form>
+            <div>
+                <label for="email">Email</label>
+                <input type="text" id="emailInput" name="email">
+                <!-- br -->
+            </div>
+                
+            <div>
+                <label for="password">Password</label>
+                <input type="password" id="passwordInput" name="password">
+                <!-- br -->
+            </div>
+
+            <button type="button" onclick="logIn()">Log In</button>
+        </form>
+
+    </body>
+
+</html>
