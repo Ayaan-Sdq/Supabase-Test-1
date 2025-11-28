@@ -49,7 +49,7 @@ async function signUp () {
     // Add to the account tables as well
     await insertAccount(displayName);
 
-    window.location.href = "index.html";
+    window.location.href = "dashboard.html";
 
 }
 
@@ -175,7 +175,7 @@ async function supabaseSignIn (email, password) {
         return;
     }
 
-    window.location.href = "index.html";
+    window.location.href = "dashboard.html";
 
 }
 

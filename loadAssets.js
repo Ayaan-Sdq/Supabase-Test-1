@@ -18,18 +18,23 @@ function updateNavBar () {
 
         document.getElementById("navigationBarDiv").insertAdjacentHTML("beforeend", `
             <ul>
-                <li><a href="index.html">Home</a></li>
+                
+                <li><a href="dashboard.html">Dashboard</a></li>
+
+                <li><a href="search.html">Search</a></li>
+
+                <li><a href="chatbotHelp.html">Ask Neighbert</a></li>
+
+                <li><a href="requestForm.html">Make an Update</a></li>
 
                 <li class="dropdown">
                     <a href="#">Account</a>
                     <ul class="dropdownMenu">
                         <li><a href="accountSettings.html">Account Settings</a></li>
                         <li><a href="javascript:signOut()">Log Out</a></li>
-                        <li><a href="requests.html">Requests</a></li>
                     </ul>
                 </li>
 
-                <li><a href="search.html">Search</a></li>
             </ul>    
         `)
 
@@ -37,7 +42,12 @@ function updateNavBar () {
 
         document.getElementById("navigationBarDiv").insertAdjacentHTML("beforeend", `
             <ul>
+
                 <li><a href="index.html">Home</a></li>
+
+                <li><a href="search.html">Search</a></li>
+
+                <li><a href="login.html">Ask Neighbert</a></li>
 
                 <li class="dropdown">
                     <a href="#">Account</a>
@@ -48,7 +58,6 @@ function updateNavBar () {
                     </ul>
                 </li>
 
-                <li><a href="search.html">Search</a></li>
             </ul>    
         `);
         
