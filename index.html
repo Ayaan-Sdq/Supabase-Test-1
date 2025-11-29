@@ -5,9 +5,13 @@
 <html>
 
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
         <title>Neighborly - Find What You Need</title>
         <link rel="icon" href="favicon.png" type="image/png">
-        <style src="format.css"></style>
+
+        <link rel="stylesheet" href="format.css"></style>
+        
         <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
         <script src="supabaseSetup.js"></script>
         <script src="loadAssets.js"></script>
@@ -16,9 +20,61 @@
     <body>
 
         <!-- Navigation Bar -->
-        <div id="navigationBarDiv"></div>
+        <nav id="navigationBarDiv"></nav>
 
-        Home
+        <main>
+            <header></header>
+
+            <section id="Logo">
+                <img src="imgLogo.png">
+                <p>Find Support. Find Hope. Find What You Need.</p>
+                <a>Let's Live Better!</a>
+            </section>
+
+            <section id="Browse">
+
+                <p>Browse trusted community resources for food, housing, jobs, and more.</p>
+                
+                <div class="card-container">
+                    <div class="card">
+                        <div class="card-image-wrapper">
+                            <img src="To Implement" alt="Food Icon">
+                        </div>
+                        <h3>Free Meals & Food Banks</h3>
+                        <p>Find nearby locations offering free groceries and hot meals for individuals and families.</p>
+                        <a href="#">Find Meals Nearby →</a>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-image-wrapper">
+                            <img src="To Implement" alt="House Icon">
+                        </div>
+                        <h3>Housing Support & Shelters</h3>
+                        <p>Get help with housing, temporary shelters, and services to keep you safe and supported.</p>
+                        <a href="#">Find Housing Nearby →</a>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-image-wrapper">
+                            <img src="To Implement" alt="Briefcase Icon">
+                        </div>
+                        <h3>Employment Assistance</h3>
+                        <p>Explore job programs, career training, and local support to help you find work.</p>
+                        <a>Find Job Support →</a>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="Who We Serve">
+                <h2>This is for you if:</h2>
+                <p>You face financial hardship as an individual or a family</p>
+                <p>You </p>
+            </section>
+
+            <section id="Contribute"></section>
+            <footer></footer>
+        </main>
 
     </body>
 

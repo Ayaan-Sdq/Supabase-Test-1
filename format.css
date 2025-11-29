@@ -2,3 +2,74 @@
 Classes: .
 ID's: #
 */
+
+:root {
+  --base-clr: #fffaef;
+  --line-clr: #5a3300;
+  --selected-clr: #ff9d4c;
+  --accent-clr: #173660;
+  --text-clr: #0e0e0e;
+  --navBar-clr: #c2e7ff;
+}
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Trebuchet MS';
+  line-height: 1.5rem;
+}
+
+body {
+  min-height: 100vh;
+  min-height: 100dvh;
+  background-color: var(--base-clr);
+  color: var(--text-clr);
+
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+nav {
+  box-sizing: border-box;
+  height: 100vh;
+  padding: 0 0;
+  background-color: var(--navBar-clr);
+  font-size: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+nav ul li {
+  display: flex;
+  padding: 15px;
+}
+
+nav ul li a {
+  height: auto;
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--accent-clr);
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 12px;
+}
+
+a:hover {
+  color: #ff7300;
+}
+
+.active {
+  background-color: #00236380;
+  border-radius: 12px;
+}
